@@ -1,0 +1,75 @@
+.join_container {
+  width: 100%;
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.join_wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.join_heading {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #2a2a2a;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.join_para1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+  color: rgba(72, 72, 72, 0.67);
+}
+.join_para2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+
+  color: rgba(72, 72, 72, 0.67);
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.join_para2>span{
+    font-weight: bold;
+    color: #000;
+}
+.join_btn {
+    background: #82B53F;
+border-radius: 10px;
+width: 500px;
+outline: none;
+border: none;
+padding: 20px;
+color: white;
+font-size: 25px;
+margin-top: 10px;
+margin-bottom: 40px;
+margin-left: auto;
+margin-right: auto;
+cursor: pointer;
+}
+.join_heading2 {
+
+}
+.join_brands_img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px
+}

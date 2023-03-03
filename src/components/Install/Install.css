@@ -1,0 +1,43 @@
+.install_container{
+    height: 250px;
+    width: 100%;
+    background: linear-gradient(91.18deg, #FFD776 5.04%, #F8AA5A 38.01%, #F38844 91.88%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px
+}
+.ins_right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px
+}
+.ins_right>h3{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 50px;
+
+color: #FFFFFF;
+
+}
+.ins_right>p{
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+margin-top: -15px;
+color: #FFFFFF;
+}
+.ins_left_img_container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.ins_left_img_container>img{
+    cursor: pointer;
+}

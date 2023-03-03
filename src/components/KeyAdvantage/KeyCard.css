@@ -1,0 +1,34 @@
+.take {
+  /* flex: 1; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: #fff;
+  width: 30%;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.take > img {
+  height: 100px;
+  width: 100px;
+  margin-top: 20px;
+}
+.key_card_head > h3 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+.key_card_head > p {
+  padding: 15px;
+  text-align: center;
+  color: #9d9b9a;
+  font-weight: 400;
+  font-size: 14px;
+}
+.key_features{
+  margin-bottom: 25px;
+}

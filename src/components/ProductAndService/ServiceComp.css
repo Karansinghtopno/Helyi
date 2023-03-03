@@ -1,0 +1,16 @@
+.service_containr {
+  width: 50%;
+  padding: 10px 0px;
+}
+.sevice_wrapper {
+  display: flex;
+  align-items: center;
+  gap:15px;
+}
+.sevice_wrapper>p{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size:18px;
+line-height: 25px;
+}
